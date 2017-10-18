@@ -67,12 +67,21 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 var str = __webpack_require__(1);
-document.write(str);
+var write = function write(s) {
+    document.write(s);
+};
+write(str);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 module.exports = 'baihiyang';
 
