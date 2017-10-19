@@ -1,5 +1,6 @@
-var str = require('./component.js');
+var str = require('./component');
+import $ from 'jquery';
 var write = s =>{
-    document.write(s);
+    $('#app').html(str);
 };
 write(str);

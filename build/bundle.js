@@ -83,7 +83,7 @@ write(str);
 "use strict";
 
 
-module.exports = 'baihiyang';
+module.exports = 'hufengpeixun';
 
 /***/ })
 /******/ ]);
