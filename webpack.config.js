@@ -38,10 +38,10 @@ module.exports = {
 				test:/\.css$/,
 				loader:'style-loader!css-loader'
 			},
-			// {
-			// 	test:/\.(eot|svg|ttf|woff|woff2)$/,
-			// 	loader:'url?limit=8192'
-			// },
+			{
+				test:/\.(eot|svg|ttf|woff|woff2)$/,
+				loader:'url?limit=8192'
+			},
 			{
 				test:/\.(png|jpg|gif)$/,
 				loader:'url?limit=8192'
