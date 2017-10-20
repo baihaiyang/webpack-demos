@@ -1,1 +1,4 @@
-module.exports = 'hufengpeixun';
+module.exports = {
+	name: 'baihaiyang',
+	age: 18
+};
